@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
-@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+@import url('https://fonts.googleapis.com/css?family=RocknRoll+One');
+@import url("https://fonts.googleapis.com/css?family=/Rock+Salt");
 
 @font-face {
     font-family: "Booter - Zero Zero";
@@ -11,7 +11,7 @@
 
 *{
     box-sizing: border-box;
-    font-family: Raleway;
+    font-family: RocknRoll+One;
     color: #777;
 }
 
@@ -52,7 +52,7 @@ html, body {
 
 .main-header {
     background-color: rgba(0,0,0,0.4);
-    background-image: url("images/Background2.jpg");
+    background-image: url("images/gradient-backround.jpeg");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -82,7 +82,7 @@ html, body {
 }
 
 .section-header {
-    font-family: "Metal Mania";
+    font-family: "Rock+Salt";
     font-weight: normal;
     color: #333;
     text-align: center;
@@ -98,7 +98,7 @@ html, body {
 }
 
 .main-footer {
-    background: linear-gradient(to right, rgba(84, 46, 65, 1),  rgba(104, 134, 174, 1));
+    background: linear-gradient(to right, rgba(111,185,238,255),  rgba(205,136,242,255));
     color: white;
     padding: 0.25em 0;
 }
@@ -191,14 +191,14 @@ html, body {
 
 .btn-primary {
     color: white;
-    background: linear-gradient(to right, rgba(84, 46, 65, 1),  rgba(104, 134, 174, 1));
+    background: linear-gradient(to right, rgba(111,185,238,255),  rgba(205,136,242,255));
     border: none;
     border-radius: .3em;
     font-weight: bold;
 }
 
 .btn-primary:hover {
-    background: linear-gradient(rgb(39, 22, 30), rgb(76, 98, 126));
+    background: linear-gradient(to right, rgba(47,170,237,255),  rgba(200,140,245,255));
 }
 
 .shop-item{
@@ -297,7 +297,7 @@ html, body {
     height: 34px;
     width: 50px;
     border-radius: 5px;
-    border: 1px solid linear-gradient(to right, rgba(84, 46, 65, 1),  rgba(104, 134, 174, 1));
+    border: 1px solid linear-gradient(to right, rgba(111,185,238,255),  rgba(205,136,242,255));
     background-color: #eee;
     color: #333;
     padding: 0;
